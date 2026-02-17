@@ -1,0 +1,14 @@
+seed: 123
+n_qubits: 4
+shots: 1024
+passes: 15
+steps_per_pass: 40
+lr: 0.05
+noise_p: 0.02
+
+branch_factor: 2
+max_branches: 8
+jitter_scale: 0.2
+temperature: 0.4
+
+outdir: runs/public_toy
